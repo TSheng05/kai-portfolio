@@ -1,0 +1,8 @@
+{
+  "title": "Medical Imaging Data Automation System",
+  "description": "Designed and developed an IoT-based solution using Raspberry Pi and Python to automate medical imaging data transfer and support clinical workflow efficiency. The project involved embedded system development, automation, system integration, deployment, and troubleshooting in a real-world healthcare environment.",
+  "techStack": ["Raspberry Pi","Python","Linux","VBScript"],
+  "githubUrl": "",
+  "liveUrl": "",
+  "date": "2026-04"
+}

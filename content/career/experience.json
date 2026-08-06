@@ -1,0 +1,15 @@
+[
+  {
+    "id": "exp-trust-health",
+    "company": "Trust Health Asia",
+    "role": "IoT Engineer Intern",
+    "startDate": "2026-01",
+    "endDate": "2026-04",
+    "description": [
+      "Developed an IoT-based medical data transmission solution utilizing Raspberry Pi Zero 2 W.",
+      "Configured embedded hardware and software to support automated medical data transfer between clinical devices.",
+      "Developed backend automation tools using Python to support device monitoring and data synchronization.",
+      "Integrated third-party APIs to enable automated monitoring and notification features."
+    ]
+  }
+]

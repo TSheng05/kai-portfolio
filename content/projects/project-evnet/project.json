@@ -1,0 +1,8 @@
+{
+  "title": "Interactive Event & Escape Room Props",
+  "description": "Engineered over 8 custom interactive IoT puzzles for large-scale university events. Solutions included proximity-based treasure trackers, remote-controlled drop mechanisms, and RFID-triggered actuators.",
+  "techStack": ["Arduino UNO", "Maker UNO", "ESP32", "WebSockets", "Sensors Integration"],
+  "githubUrl": "",
+  "liveUrl": "",
+  "date": "2023-11"
+}

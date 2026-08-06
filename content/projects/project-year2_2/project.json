@@ -1,0 +1,8 @@
+{
+  "title": "IoT Weather Monitoring System",
+  "description": "An end-to-end IoT solution for environmental tracking. Designed an automated response system using dual ESP32 microcontrollers to actuate servos and alarms based on real-time thresholds.",
+  "techStack": ["ESP32", "Node-RED", "MongoDB", "MQTT (HiveMQ)", "C++"],
+  "githubUrl": "",
+  "liveUrl": "",
+  "date": "2025-11"
+}

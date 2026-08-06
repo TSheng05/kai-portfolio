@@ -1,0 +1,8 @@
+{
+  "title": "Light-Sensitive Security Safe",
+  "description": "A secure safe box prototype utilizing Maker UNO. Features a button-input password system and an anti-intrusion mechanism that triggers a buzzer alarm when unauthorized light or improper door closure is detected.",
+  "techStack": ["Maker UNO", "Ultrasonic Sensor", "LDR", "C++"],
+  "githubUrl": "",
+  "liveUrl": "",
+  "date": "2024-11"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Hardware & IoT Microcontrollers",
+    "items": ["ESP32", "Raspberry Pi", "Arduino UNO", "Maker UNO", "Sensor Integration (RFID, DHT11, LDR, MQ135)"]
+  },
+  {
+    "category": "Programming Languages",
+    "items": ["C/C++", "Python", "VBScript", "HTML/CSS"]
+  },
+  {
+    "category": "Cloud, Protocols & Architecture",
+    "items": ["MQTT (HiveMQ)", "Node-RED", "MongoDB", "ThingSpeak API", "Telegram API", "System Integration"]
+  }
+]

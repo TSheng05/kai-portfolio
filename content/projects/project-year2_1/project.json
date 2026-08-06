@@ -1,0 +1,8 @@
+{
+  "title": "Smart Watering System",
+  "description": "An automated plant care system utilizing an ESP32. Features real-time tracking of ambient temperature, humidity, and light intensity, visualized on the ThingSpeak IoT platform.",
+  "techStack": ["ESP32", "ThingSpeak API", "Web Development", "C++"],
+  "githubUrl": "",
+  "liveUrl": "",
+  "date": "2025-06"
+}
