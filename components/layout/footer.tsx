@@ -24,8 +24,8 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-sm font-semibold text-foreground">Connect</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="https://github.com/你的github" target="_blank" rel="noreferrer" className="transition-colors hover:text-primary">GitHub</a></li>
-              <li><a href="https://linkedin.com/in/你的领英" target="_blank" rel="noreferrer" className="transition-colors hover:text-primary">LinkedIn</a></li>
+              <li><a href="https://github.com/TSheng05" target="_blank" rel="noreferrer" className="transition-colors hover:text-primary">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/kai-sheng-tan-9b969b2a6" target="_blank" rel="noreferrer" className="transition-colors hover:text-primary">LinkedIn</a></li>
             </ul>
           </div>
 
