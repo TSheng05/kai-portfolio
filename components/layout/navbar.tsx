@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Container } from "@/components/layout/container"
-import { ThemeToggle } from "@/components/theme-toggle"
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -41,13 +40,14 @@ export function Navbar() {
   }, [])
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-md">
+    // bg-background/60 配合 backdrop-blur-xl 制造高级的毛玻璃质感
+    <header className="sticky top-0 z-50 w-full border-b border-white/5 bg-background/60 backdrop-blur-xl">
       <Container>
         <div className="flex h-16 items-center justify-between">
           <div className="flex gap-6 md:gap-10">
             {/* 点击名字回到顶部 */}
             <a href="#home" className="flex items-center space-x-2">
-              <span className="font-bold tracking-tight">Kai</span>
+              <span className="font-bold tracking-tight text-foreground">Kai</span>
             </a>
             
             <nav className="hidden md:flex gap-6">
@@ -57,9 +57,9 @@ export function Navbar() {
                   <a
                     key={link.href}
                     href={link.href}
-                    // 根据激活状态动态改变样式（变粗且颜色加深）
+                    // 根据激活状态动态改变样式（变粗且变为柔和橙色）
                     className={`text-sm transition-colors hover:text-primary ${
-                      isActive ? "font-bold text-foreground" : "font-medium text-muted-foreground"
+                      isActive ? "font-bold text-primary" : "font-medium text-muted-foreground"
                     }`}
                   >
                     {link.name}
@@ -68,8 +68,9 @@ export function Navbar() {
               })}
             </nav>
           </div>
+          
           <div className="flex items-center gap-4">
-            <ThemeToggle />
+            {/* 注意：这里已经去掉了 ThemeToggle */}
             <Link
               href="/resume"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary md:hidden"
@@ -78,7 +79,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/resume"
-              className="hidden md:flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+              className="hidden md:flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/20 transition-all hover:bg-primary/90"
             >
               Resume
             </Link>
