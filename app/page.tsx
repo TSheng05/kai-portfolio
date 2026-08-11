@@ -8,11 +8,11 @@ import {
 import { getAllProjects } from "@/lib/projects"
 
 export default function Home() {
-  const about = getAboutData()
-  const skills = getSkillsData()
-  const experiences = getExperienceData()
-  const projects = getAllProjects()
-  const timeline = getTimelineData()
+  const about: any = getAboutData()
+  const skills: any[] = getSkillsData()
+  const experiences: any[] = getExperienceData()
+  const projects: any[] = getAllProjects()
+  const timeline: any[] = getTimelineData()
 
   return (
     <div className="flex flex-col">
@@ -22,7 +22,7 @@ export default function Home() {
         <Container>
           <div className="flex max-w-[48rem] flex-col items-start gap-6">
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-              Hi, I'm {about.name}. <br className="hidden sm:inline" />
+              Hi, I&apos;m {about.name}. <br className="hidden sm:inline" />
               <span className="text-muted-foreground">{about.title}.</span>
             </h1>
             <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
@@ -179,9 +179,9 @@ export default function Home() {
         <Container className="flex flex-col items-center text-center">
           <div className="max-w-[42rem] space-y-8">
             <div className="space-y-4">
-              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">Let's work together.</h2>
+              <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">Let&apos;s work together.</h2>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                I&apos;m currently open for new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
               </p>
             </div>
             <div className="pt-8">
