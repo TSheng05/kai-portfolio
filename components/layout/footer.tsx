@@ -33,7 +33,8 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-foreground">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/resume" className="transition-colors hover:text-primary">Resume</Link></li>
-              <li><Link href="/projects" className="transition-colors hover:text-primary">Projects</Link></li>
+              {/* 修复了 404 问题：加上了 /# 前缀，确保跨页面跳转回主页 */}
+              <li><Link href="/#projects" className="transition-colors hover:text-primary">Projects</Link></li>
             </ul>
           </div>
 
@@ -51,14 +52,11 @@ export function Footer() {
 
         </div>
 
-        {/* 底部版权栏 */}
+        {/* 底部版权栏：保留了版权声明，删除了 Dark mode 提示 */}
         <div className="mt-12 flex flex-col items-center justify-between border-t border-border/40 pt-8 sm:flex-row text-xs">
           <p>
             Copyright © {new Date().getFullYear()} {about.name}. All rights reserved.
           </p>
-          <div className="mt-4 flex gap-4 sm:mt-0">
-            <span>Best viewed in Dark Mode.</span>
-          </div>
         </div>
 
       </Container>
